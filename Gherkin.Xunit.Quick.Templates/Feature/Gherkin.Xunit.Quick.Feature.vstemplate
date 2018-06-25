@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Gherkin.Xunit.Quick.Feature</Name>
+    <Description>Gherkin.Xunit.Quick.Feature</Description>
+    <Icon>Gherkin.Xunit.Quick.Templates.ico</Icon>
+    <TemplateID>adc9e272-8c21-449a-9f81-685217ad9fc9</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <DefaultName>Calculator.feature</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$fileinputname$.feature">Calculator.feature</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Gherkin.XUnit.Quick.VS.Extension, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ea262f3f8c218930</Assembly>
+    <FullClassName>Gherkin.XUnit.Quick.VS.Extension.TemplateWizzard.CopyToOutputWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
