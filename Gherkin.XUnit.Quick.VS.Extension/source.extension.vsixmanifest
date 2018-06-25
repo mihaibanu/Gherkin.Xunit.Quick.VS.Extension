@@ -3,7 +3,10 @@
     <Metadata>
         <Identity Id="Gherkin.XUnit.Quick.VS.Extension.7475b27e-4b27-4a74-bb23-b0cfdbe7d9c2" Version="1.0" Language="en-US" Publisher="mihai.banu" />
         <DisplayName>Gherkin.XUnit.Quick.VS.Extension</DisplayName>
-        <Description>Empty VSIX Project.</Description>
+        <Description xml:space="preserve">Visual studio extension for the Gherkin.XUnit.Quick project</Description>
+        <MoreInfo>https://github.com/mihaibanu/Gherkin.Xunit.Quick.VS.Extension</MoreInfo>
+        <License>LICENSE.txt</License>
+        <Tags>gherkin xunit quick</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />
